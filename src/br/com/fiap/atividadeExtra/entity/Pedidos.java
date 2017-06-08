@@ -17,6 +17,11 @@ import javax.persistence.Table;
 @Table(name = "PEDIDOS")
 public class Pedidos implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7326141203400509712L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "IDPEDIDO")
